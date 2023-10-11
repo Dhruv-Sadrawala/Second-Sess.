@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+	<!--Create following structurev in Xml
+		Client_details(Client(C_id,C_name,Emp_Details(Emp_id,Name,Designation,Ratings,Salary))).
+		o Add atleast 5 records in above structure.
+		o Display all the records in table form with 3 CSS effects.
+		o If Designation="Project Head" and Ratings="5" then put "Excellent" in remarks column.
+		o If Designation="Manager" and Ratings="4" then put "Good" in remarks column.
+		o If Designation="HR" and Ratings="3" then put "Better" in remarks column.-->
+<client_de>
+	<client>
+		<c_id>C01</c_id>
+		<c_name>ABC</c_name>
+		<emp_details>
+			<emp_id>E01</emp_id>
+			<name>XYZ</name>
+			<desig>Project Head</desig>
+			<ratings>5</ratings>
+			<salary>50000</salary>
+		</emp_details>
+	</client>
+	
+	<client>
+		<c_id>C04</c_id>
+		<c_name>TYU</c_name>
+		<emp_details>
+			<emp_id>E04</emp_id>
+			<name>XYZ</name>
+			<desig>Manager</desig>
+			<ratings>6</ratings>
+			<salary>70000</salary>
+		</emp_details>
+	</client>
+	
+	<client>
+		<c_id>C02</c_id>
+		<c_name>GFH</c_name>
+		<emp_details>
+			<emp_id>E02</emp_id>
+			<name>DST</name>
+			<desig>Manager</desig>
+			<ratings>4</ratings>
+			<salary>30000</salary>
+		</emp_details>
+	</client>
+	
+	<client>
+		<c_id>C05</c_id>
+		<c_name>OPL</c_name>
+		<emp_details>
+			<emp_id>E05</emp_id>
+			<name>DSA</name>
+			<desig>Project Head</desig>
+			<ratings>8</ratings>
+			<salary>50000</salary>
+		</emp_details>
+	</client>
+	
+	<client>
+		<c_id>C03</c_id>
+		<c_name>JKL</c_name>
+		<emp_details>
+			<emp_id>E03</emp_id>
+			<name>DFG</name>
+			<desig>HR</desig>
+			<ratings>3</ratings>
+			<salary>20000</salary>
+		</emp_details>
+	</client>
+</client_de>
